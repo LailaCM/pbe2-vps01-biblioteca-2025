@@ -1,0 +1,26 @@
+
+{
+	"ra": "2486",
+	"nome": "Laila Casadei",
+	"telefone": "(11) 99999-9999"
+}
+{
+	"ra": "2476",
+	"nome": "Beatriz Vizeu",
+	"telefone": "(11) 99999-9999"
+}
+{
+	"ra": "2194",
+	"nome": "Eloá Florêncio",
+"telefone": "(11) 99999-9999"
+}
+{
+	"ra": "2178",
+	"nome": "Lia Almeida",
+	"telefone": "(11) 99999-9999"
+}
+{
+	"ra": "2165",
+	"nome": "Ana Clara Almeida",
+	"telefone": "(11) 99999-9999"
+}

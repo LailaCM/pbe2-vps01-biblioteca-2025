@@ -1,0 +1,363 @@
+type: collection.insomnia.rest/5.0
+name: Prova1-PBE-S3
+meta:
+  id: wrk_a7feafafedd04ab886a38d701b60129c
+  created: 1743172562203
+  modified: 1743172562203
+collection:
+  - name: Livros
+    meta:
+      id: fld_79b40f2dea5b41a4b2a551d47254bb65
+      created: 1743172562215
+      modified: 1743173505646
+      sortKey: -1732279967271
+    children:
+      - url: http://localhost:3001/livro
+        name: CREATE
+        meta:
+          id: req_672a13cb05974af9b146336ba88144cc
+          created: 1743172562217
+          modified: 1743175256134
+          isPrivate: false
+          sortKey: -1732535169586
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+                "titulo": "O Guarani",
+                "autor": "José de Alencar",
+                "prateleira": 1
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/livro
+        name: READ
+        meta:
+          id: req_96e992c55b574d109397ac6a8a76bc66
+          created: 1743172562219
+          modified: 1743173531573
+          isPrivate: false
+          sortKey: -1732535169686
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/livro/1
+        name: UPDATE
+        meta:
+          id: req_0e3c33b364d64c64a8e6435a1db6a82d
+          created: 1743172562221
+          modified: 1743175247764
+          isPrivate: false
+          sortKey: -1732535169536
+        method: PUT
+        body:
+          mimeType: application/json
+          text: |-
+            {
+                "titulo": "Dom Casmurro",
+                "autor": "Machado de Assis",
+                "prateleira": 1
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/livro/7
+        name: DELETE
+        meta:
+          id: req_45005751bfae468393ce49f2b38db31b
+          created: 1743172562223
+          modified: 1743177770654
+          isPrivate: false
+          sortKey: -1732535169511
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Alunos
+    meta:
+      id: fld_f9affdc28bd54744bd6cfaf4654f3696
+      created: 1743172562225
+      modified: 1743175453831
+      sortKey: -1732279968167.5
+    children:
+      - url: http://localhost:3001/aluno
+        name: CREATE
+        meta:
+          id: req_d97bd7203d3c4718a54eb527fee7a24a
+          created: 1743172562227
+          modified: 1743173354211
+          isPrivate: false
+          sortKey: -1732535169586
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"ra": "2165",
+            	"nome": "Ana Clara Almeida",
+            	"telefone": "(11) 99999-9999"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/aluno
+        name: READ
+        meta:
+          id: req_64c9d770cb2c4e1cb41c4c209b4ec64b
+          created: 1743172562230
+          modified: 1743172593418
+          isPrivate: false
+          sortKey: -1732535169686
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/aluno/2165
+        name: UPDATE
+        meta:
+          id: req_85488138f1704ee1aabc719824176159
+          created: 1743172562232
+          modified: 1743173418181
+          isPrivate: false
+          sortKey: -1732535169536
+        method: PUT
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"ra": "2165",
+            	"nome": "Ana Clara Almeida",
+            	"telefone": "(19) 99999-9999"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/aluno/2165
+        name: DELETE
+        meta:
+          id: req_7ef1bbcc6e254dc394964a5a7818e653
+          created: 1743172562234
+          modified: 1743177470636
+          isPrivate: false
+          sortKey: -1732535169523.5
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/aluno/2165
+        name: READONE
+        meta:
+          id: req_57d8837edf7549b79a1f020ebd0a7bca
+          created: 1743172562246
+          modified: 1743177576977
+          isPrivate: false
+          sortKey: -1732535169636
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Emprestimos
+    meta:
+      id: fld_e94c3272ebc640528f8afe111a965fe9
+      created: 1743172562236
+      modified: 1743175462513
+      sortKey: -1732279966318.4688
+    children:
+      - url: http://localhost:3001/emprestimo
+        name: CREATE
+        meta:
+          id: req_8a495aab3e584d7d9f1c39326c950b03
+          created: 1743172562238
+          modified: 1743175967608
+          isPrivate: false
+          sortKey: -1732535169586
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+                "aluno": "2486",
+                "livro": 10,
+                "devolucao": null,
+                "multa": null
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/emprestimo
+        name: READ
+        meta:
+          id: req_0ffea4437fdf4ffb8adcac803c433825
+          created: 1743172562241
+          modified: 1743175298529
+          isPrivate: false
+          sortKey: -1732535169686
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/emprestimo/12
+        name: UPDATE
+        meta:
+          id: req_cfe61b3522054559b0c54f3df28d8937
+          created: 1743172562243
+          modified: 1743177892103
+          isPrivate: false
+          sortKey: -1732535169536
+        method: PUT
+        body:
+          mimeType: application/json
+          text: |-
+            {
+                "aluno": "2486",
+                "livro": 10,
+                "devolucao": "2025-04-04T15:32:48.665Z",
+                "multa": null
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/emprestimo/8
+        name: DELETE
+        meta:
+          id: req_c2fd7f6bf51a4213a8089422100e7e52
+          created: 1743172562245
+          modified: 1743177595387
+          isPrivate: false
+          sortKey: -1732535169511
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/10.1.1
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_c128c936c7e54de494c5c74c6f3f8772
+    created: 1743172562210
+    modified: 1743172562210
+environments:
+  name: Base Environment
+  meta:
+    id: env_7225678981664959aedaf49bf39e12ed
+    created: 1743172562206
+    modified: 1743172562206
+    isPrivate: false

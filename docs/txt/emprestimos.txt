@@ -1,0 +1,66 @@
+{
+    "aluno": "2486",
+    "livro": 1,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2486",
+    "livro": 2,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2476",
+    "livro": 3,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2476",
+    "livro": 4,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2194",
+    "livro": 5,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2178",
+    "livro": 6,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2165",
+    "livro": 7,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2165",
+    "livro": 8,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2194",
+    "livro": 9,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2178",
+    "livro": 10,
+    "devolucao": null,
+    "multa": null
+}
+{
+    "aluno": "2486",
+    "livro": 10,
+    "devolucao": null,
+    "multa": null
+}
