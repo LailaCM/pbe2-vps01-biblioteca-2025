@@ -17,7 +17,7 @@ collection:
         meta:
           id: req_672a13cb05974af9b146336ba88144cc
           created: 1743172562217
-          modified: 1743175256134
+          modified: 1743181082249
           isPrivate: false
           sortKey: -1732535169586
         method: POST
@@ -27,7 +27,7 @@ collection:
             {
                 "titulo": "O Guarani",
                 "autor": "José de Alencar",
-                "prateleira": 1
+                "prateleira": "1"
             }
         headers:
           - name: Content-Type
@@ -219,12 +219,12 @@ collection:
             send: true
             store: true
           rebuildPath: true
-      - url: http://localhost:3001/aluno/2165
+      - url: http://localhost:3001/aluno/2178
         name: READONE
         meta:
           id: req_57d8837edf7549b79a1f020ebd0a7bca
           created: 1743172562246
-          modified: 1743177576977
+          modified: 1743179106677
           isPrivate: false
           sortKey: -1732535169636
         method: GET

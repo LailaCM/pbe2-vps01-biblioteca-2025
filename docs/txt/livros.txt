@@ -1,50 +1,50 @@
 {
     "titulo": "Dom Casmurro",
     "autor": "Machado de Assis",
-    "prateleira": 1.1
+    "prateleira": "1.1"
 }
 {
     "titulo": "O Cortiço",
     "autor": "Aluísio Azevedo",
-    "prateleira": 1.2
+    "prateleira": "1.2"
 }
 {
     "titulo": "Memórias Póstumas de Brás Cubas",
     "autor": "Machado de Assis",
-    "prateleira": 1.3
+    "prateleira": "1.3"
 }
 {
     "titulo": "Vidas Secas",
     "autor": "Graciliano Ramos",
-    "prateleira": 1.4
+    "prateleira": "1.4"
 }
 {
     "titulo": "Grande Sertão: Veredas",
     "autor": "João Guimarães Rosa",
-    "prateleira": 1.5
+    "prateleira": "1.5"
 }
 {
     "titulo": "A Moreninha",
     "autor": "Joaquim Manuel de Macedo",
-    "prateleira": 1.6
+    "prateleira": "1.6"
 }
 {
     "titulo": "Iracema",
     "autor": "José de Alencar",
-    "prateleira": 1.7
+    "prateleira": "1.7"
 }
 {
     "titulo": "Capitães da Areia",
     "autor": "Jorge Amado",
-    "prateleira": 1.8
+    "prateleira": "1.8"
 }
 {
     "titulo": "O Guarani",
     "autor": "José de Alencar",
-    "prateleira": 1.9
+    "prateleira": "1.9"
 }
 {
     "titulo": "A Hora da Estrela",
     "autor": "Clarice Lispector",
-    "prateleira": 2.0
+    "prateleira": "2.0"
 }

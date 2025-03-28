@@ -17,7 +17,7 @@ model Livros{
   id          Int       @id @default(autoincrement())
   titulo      String    @db.VarChar(100)
   autor       String    @db.VarChar(100)
-  prateleira  Float
+  prateleira  String    @db.VarChar(100)
   emprestado  Emprestimo[]
 }
 
